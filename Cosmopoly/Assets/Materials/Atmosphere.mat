@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Atmosphere
+  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 5, y: 5}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 2, y: 2}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.18, y: 5}
+        m_Offset: {x: 7.82, y: 5}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - noisetex:
+        m_Texture: {fileID: 2800000, guid: 1b5491d7d8c0c684a8d4827a8473b1d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - starTexture:
+        m_Texture: {fileID: 2800000, guid: a2b03e4b2c0f0ed4b9646579fbdc3f2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - DirectionalityFactor: 0
+    - SunColorIntensity: 0
+    - _BumpScale: 1
+    - _ColorFalloff: 20.2
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _Density: 4.05
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _G: 0
+    - _G2: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.766
+    - _GlossyReflections: 1
+    - _InnerRatio: 0.594
+    - _InvFade: 0.84
+    - _Metallic: 0.637
+    - _Mode: 2
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimPower: 1.2
+    - _Samples: 0
+    - _Shininess: 0.081
+    - _SideBleed: 0.575
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SquashAmount: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UVSec: 0
+    - _UseUIAlphaClip: 0
+    - _ZWrite: 0
+    - _fCameraHeight: 0
+    - _fCameraHeight2: 0
+    - _fInnerRadius: 0
+    - _fInnerRadius2: 0
+    - _fKm4PI: 0
+    - _fKmESun: 0
+    - _fKr4PI: 0
+    - _fKrESun: 0
+    - _fOuterRadius: 0
+    - _fOuterRadius2: 0
+    - _fScale: 0
+    - _fScaleDepth: 0
+    - _fScaleOverScaleDepth: 0
+    - cloudSpeed1: 1
+    - cloudSpeed2: 1
+    - fade: 0
+    - plane_height1: 1
+    - plane_height2: 1
+    - tint: 1
+    m_Colors:
+    - BetaMieTheta: {r: 0, g: 0, b: 0, a: 1}
+    - BetaRayTheta: {r: 0, g: 0, b: 0, a: 1}
+    - LightDir: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.19999981, g: 0, b: 1, a: 0.559}
+    - _EmissionColor: {r: 1.4705882, g: 0.7677335, b: 0.7677335, a: 1}
+    - _FogBaseColor: {r: 0, g: 0.7, b: 1, a: 1}
+    - _FogColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FogDenseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.13235295, g: 0.06491134, b: 1, a: 0}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _TintColor: {r: 1, g: 0.1397059, b: 0.1397059, a: 0.5}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _cInvWaveLength: {r: 0.9264706, g: 0, b: 0, a: 0.991}
+    - _v4CameraPos: {r: 10, g: 10, b: 10, a: 0}
+    - _v4LightDir: {r: 10, g: 10, b: 10, a: 0}
+    - g_vEyePt: {r: 0, g: 0, b: 0, a: 1}
+    - g_vSunColor: {r: 0, g: 0, b: 0, a: 1}
+    - vBetaMie: {r: 0, g: 0, b: 0, a: 1}
+    - vBetaRayleigh: {r: 0, g: 0, b: 0, a: 1}
+    - wind_direction: {r: 0, g: 0, b: 0, a: 0}
